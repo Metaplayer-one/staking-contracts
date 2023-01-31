@@ -22,6 +22,14 @@ $ npm run build
 $ npm run test
 ```
 
+### Register BLS Public key to contract
+
+Please make sure required valies are set in .env to use this command
+
+```shell
+$ npm run register-blskey
+```
+
 ### Stake balance to contract
 
 Please make sure required values are set in .env to use this command
@@ -40,4 +48,18 @@ $ npm run unstake
 
 ```shell
 $ npm run info
+```
+
+### Register Validator Reward Program - minimum staked 10000 METAd
+
+```shell
+$ npm run register-reward
+```
+
+### Claim reward from contract
+
+Please make sure required values are set in .env to use this command
+
+```shell
+$ npm run claim
 ```

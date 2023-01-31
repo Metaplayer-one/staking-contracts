@@ -12,6 +12,7 @@
     "unstake": "hardhat run scripts/unstake.ts --network metaplayer-one",
     "register-blskey": "hardhat run scripts/register-bls-key.ts --network metaplayer-one",
     "register-reward": "hardhat run scripts/register-in-reward.ts --network metaplayer-one",
+    "claim": "hardhat run scripts/claim-reward.ts --network metaplayer-one",
     "info": "hardhat run scripts/info.ts --network metaplayer-one",
     "test": "npx hardhat test",
     "clean": "npx hardhat clean",
